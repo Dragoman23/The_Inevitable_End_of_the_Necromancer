@@ -44,13 +44,13 @@ git clone https://github.com/Dragoman23/The_Inevitable_End_of_the_Necromancer.gi
 Move into the project folder:
 
 ```bash
-cd YOUR_REPOSITORY
+cd The_Inevitable_End_of_the_Necromancer
 ```
 
 Run the game:
 
 ```bash
-python 
+python The_Inevitable_End_of_the_Necromancer_game_code.py
 ```
 
 If your computer uses Python 3:
