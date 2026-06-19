@@ -19,7 +19,7 @@ if action.lower() == "guild":
         print("You decide to lie to the guildmaster. \nYou tell him that you are still a warlock and you have no intentions of seeking revenge. \nSatisifed with your answers, the guildmaster gives you 20 gold and lets you carry on.")
         time.sleep(4)
         gold += 20
-        print("You return to the main hall of the guild. \nYou walk up to the desk attendatn and ask for a book on dark classes. \nAlthough she was confused, the desk attendant give you the book. \nUnknown to you, she tells the guild master about this progression.\nWhile he doesn't directly do anything, but he sends a few spies and rouges to follow you around.")
+        print("You return to the main hall of the guild. \nYou walk up to the desk attendant and ask for a book on dark classes. \nAlthough she was confused, the desk attendant give you the book. \nUnknown to you, she tells the guild master about this progression.\nWhile he doesn't directly do anything, but he sends a few spies and rouges to follow you around.")
         time.sleep(2)
         print("You approach the quest board. \nSince you were a powerful Warlock in the past, you are able to take quests up until rank A.")
         time.sleep(1)
