@@ -136,13 +136,3 @@ if action.lower() =="wander":
     print("Your body was taken over by the spirit of a dead man. \nSince your spirit has been destroyed and you have officially passed away.")
     time.sleep(4)
     print("THE END")
-
-
-
-#Hero pathway to add later
-#action = input("Make a choice: 'Revenge' or 'Hero': ")
-#if action.lower() == "revenge":
-#elif action.lower() == "hero":
-    #print("You decide to use your newfound powers to help others and become a hero. \nYou decide to dedicate your life to protecting the innocent and fighting for justice.")
-#print("You slowly wake up in a dark alley. \nYou have no memory of how you got here, but you feel a strange energy, a magic of sorts coursing through your veins. \nYou look around and see a small, glowing amulet lying on the ground next to you. \nAs you pick it up, you feel a surge of power and knowledge flood your mind. \nYou learn you were a great adventurers, but you were betrayed by your own companions and kingdom. \nYou have to make a decision: do you seek revenge on those who betrayed you, or do you use your newfound powers to help others and become a hero? \nThe choice is yours.\n")
-#add back the decision path
