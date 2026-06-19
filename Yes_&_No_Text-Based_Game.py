@@ -1,4 +1,5 @@
 import time
+print("NOTE: Type the words surrounded by these '' to make a decision")
 print("You slowly wake up in a dark alley. \nYou have no memory of how you got here, but you feel a strange energy, a magic of sorts coursing through your veins. \nYou look around and see a small, glowing amulet lying on the ground next to you. \nAs you pick it up, you feel a surge of power and knowledge flood your mind. \nYou learn you were a great adventurers, but you were betrayed by your own companions and kingdom.")
 gold = 0
 time.sleep(4)
@@ -19,7 +20,24 @@ if action.lower() == "guild":
         time.sleep(4)
         gold += 20
         print("You return to the main hall of the guild. \nYou walk up to the desk attendatn and ask for a book on dark classes. \nAlthough she was confused, the desk attendant give you the book. \nUnknown to you, she tells the guild master about this progression.\nWhile he doesn't directly do anything, but he sends a few spies and rouges to follow you around.")
-
+        time.sleep(2)
+        print("You approach the quest board. \nSince you were a powerful Warlock in the past, you are able to take quests up until rank A.")
+        time.sleep(1)
+        print("On the board there are two quests: A 'D-Rank' quest to hunt rabbits on the outskirts of the Dark Forest or a 'A-Rank' quest to subjugate a goblin village and the their chief, also in the Dark Forest.")
+        action = input("> ")
+        if action.lower() == "d-rank":
+            print("You decide to take the easier, D-Rank quest since you are back at level 1. \nYou gather your gear and the quest map from the front desk and start your journey.")
+            time.sleep(2.5)
+            print("Once you arrive at the Dark Forest, you start killing rabbits and things are going swimmingly. \n\nThat is until you hear a guttural scream. \n\nAn army of goblin mages and warriors stream out of the forest. \n\nYou try to escape, but in the process you trip on a rabbit you killed. \n\nThe goblins catch up with you and mutilate your body, leaving it for the rabbit to feast on. \n\nTo think you would die because of a body dead rabbit.")
+            print("THE END")
+        if action.lower() == "a-rank":
+            print("Confident in your adventuring skills and the basic multi-class spells you decide to take on the A-Rank quest. \nYou gather your gear and the quest map from the front desk and start you journey.")
+            time.sleep(2.5)
+            print("Once you arrive in the Dark Forest, you begin to look for the goblin village. \n\nBefore you know it, you are smack dab in the middle of the village, surrounded by rabid goblins.")
+            print("You try to stick to your basic multi-class spells, but before you know it those skills become insignificant. \n\nYou are forced to resort to using your new necromancer skills. \n\nLuckily, you are able to escape the Dark Forest safely, with your undead warriors trailing behind you.")
+            time.sleep(2.5)
+            print("Suddenly, an arrow pierces your throat. \n\nA rouge appears from the trees and whispers in your in your ear 'Compliments of the Guild, evil necromancer. \n\nYou slowly bleed out, regretting the fact that you could never achieve your revenge.")
+            print("THE END")
     if action.lower() == "truth":
         print("You decide to the honest for once and you tell the guild master your true intentions and your necromancer class. \nTurns out the necromancer class is considered a dark class. \nThese dark classes are fated to bring the end of the world. \nThe shocked guildmaster sends out a guild wide bounty. \nYou now have two options: 'Give Up' or 'Run Away'")
         action = input("> ")
