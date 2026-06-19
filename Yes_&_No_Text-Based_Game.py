@@ -3,7 +3,7 @@ print("NOTE: Type the words surrounded by these '' to make a decision")
 print("You slowly wake up in a dark alley. \nYou have no memory of how you got here, but you feel a strange energy, a magic of sorts coursing through your veins. \nYou look around and see a small, glowing amulet lying on the ground next to you. \nAs you pick it up, you feel a surge of power and knowledge flood your mind. \nYou learn you were a great adventurers, but you were betrayed by your own companions and kingdom.")
 gold = 0
 time.sleep(4)
-print("You decide to seek revenge on those who betrayed you. \nYou start to use your newfound powers to track down your former companions and kingdom, and you unleash your wrath upon them.")
+print("You decide to start seeking revenge on those who betrayed you. \nYou start to use your newfound powers to track down your former companions and kingdom.")
 time.sleep(4)
 print("Since you let your anger consume you, you unlock the necromancer class. \nThis class allows you to control the bodies and spirit of the people you kill.")
 time.sleep(4)
@@ -38,7 +38,7 @@ if action.lower() == "guild":
             time.sleep(2.5)
             print("Suddenly, an arrow pierces your throat. \n\nA rouge appears from the trees and whispers in your in your ear 'Compliments of the Guild, evil necromancer. \n\nYou slowly bleed out, regretting the fact that you could never achieve your revenge.")
             print("THE END")
-    if action.lower() == "truth":
+    elif action.lower() == "truth":
         print("You decide to the honest for once and you tell the guild master your true intentions and your necromancer class. \nTurns out the necromancer class is considered a dark class. \nThese dark classes are fated to bring the end of the world. \nThe shocked guildmaster sends out a guild wide bounty. \nYou now have two options: 'Give Up' or 'Run Away'")
         action = input("> ")
         if action.lower() == "give up":
@@ -128,6 +128,8 @@ if action.lower() == "guild":
                             time.sleep(2)
                             print("That explains a lot... \n'She died inside the manor to a savage monster.' \n'NOOOOOO, you must be lying! How could she die but you survive?' \n'I know! You must have secretly killed her to increase your own record. You are probably planning to kill me too, but I am going to end you first.' A twisted rage fills Hereticons face. \nYou try to activate your new powers, but your magic power was depleted during the assassination attempt. \nHereticon's greataxe comes down on your head, ending your life.")
                             print("THE END")
+    else:
+        print("Invalid Choice")
 if action.lower() =="wander":
     print("You decide to wander the world to try and find powerful souls. \nYou succesfully find the soul of a powerful warrior, named Roland the Great, but you come across a major issue. \nYou aren't strong enough to control the spirit of Roland and he takes over you body.")
     time.sleep(4)
