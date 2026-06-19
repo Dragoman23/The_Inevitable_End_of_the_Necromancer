@@ -67,6 +67,8 @@ The game is entirely text-based.
 
 Simply read the story and type the prompted choices exactly as shown to progress through the adventure.
 
+Link to Gameplay Demo: https://youtu.be/7VcHQxcoBoA?si=jubN4lRBywCK4lDA
+
 ---
 
 ## Screenshots
