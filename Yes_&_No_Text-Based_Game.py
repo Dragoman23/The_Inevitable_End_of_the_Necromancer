@@ -78,7 +78,7 @@ if action.lower() == "guild":
                     time.sleep(2)
                     print("Since the Baron does have guards you will be working in a team with a Assassin Rogue named Shadow and a Oathbreaker Paladin named Hereticon. \nThey are waiting for you at the bar. Right there.")
                     time.sleep(4)
-                    print("'Hello, I am the necromancer you will be working with.' \n'Dammint, another sunny newbie' Shadow mutters under her breath. \n'Be quiet, Shadow. Atleast he has a strong class. Better than the last sacrifice... teammate. I said teammate.' Hereticon utters ominously")
+                    print("'Hello, I am the necromancer you will be working with.' \n'Dammit, another sunny newbie' Shadow mutters under her breath. \n'Be quiet, Shadow. Atleast he has a strong class. Better than the last sacrifice... teammate. I said teammate.' Hereticon utters ominously")
                     time.sleep(4)
                     print("You and your reluctant teammates work out a plan to kill the Baron. \nShadow and you will be using her shared stealth skill to sneak into the manor. \nHereticon will create distraction and try to tank the guards attack. \nOnce inside the manor you will be using your poison gas and shadow soliders to deal with the guards. \nShadow will then use her assassination skill to kill the Baron.")
                     time.sleep(4)
@@ -109,7 +109,7 @@ if action.lower() == "guild":
                         time.sleep(1.5)
                         print("Here is my question:What is the creature that walks on four legs in the morning, two legs in the afternoon, and three legs in the evening?")
                         answer = input("> ")
-                        answer_list=['man','humans','humanity', 'people']
+                        answer_list=['man','humans','humanity', 'people','human']
                         if answer.lower() not in answer_list:
                             print(f"You have failed the riddle of the beast. The acceptable answers were {answer_list}. Now face your death!")
                             time.sleep(3)
