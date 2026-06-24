@@ -69,6 +69,8 @@ Simply read the story and type the prompted choices exactly as shown to progress
 
 Link to Gameplay Demo: https://youtu.be/7VcHQxcoBoA?si=jubN4lRBywCK4lDA
 
+ITCH.IO Link: https://ram-kondapalli.itch.io/the-inevitable-end-of-the-necromancer
+
 ---
 
 ## Screenshots
